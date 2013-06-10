@@ -1,0 +1,11 @@
+extends layout
+
+append stylesheet
+	link(href="/public/stylesheet/markdown.css", rel="stylesheet")
+
+append content
+	div.markdown
+		| !{entry.content}
+		div#disqus_thread
+		noscript Please enable JavaScript to view the 
+			a(href="http://disqus.com/?ref_noscript") comments powered by Disqus.
