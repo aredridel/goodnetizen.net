@@ -204,7 +204,7 @@ footer .copy, footer .copy a {
 }
 
 .article.intro .content p {
-  display: inline;
+  display: block;
 }
 
 .article.intro .content .more {
